@@ -1,0 +1,246 @@
+@font-face {
+  font-family: HelveticaItalic;
+  src: url("../fonts/HelveticaItalic.eot");
+  src: local("HelveticaItalic"), url("../fonts/HelveticaItalic.ttf");
+}
+
+@font-face {
+  font-family: HelveticaRegular;
+  src: url("../fonts/HelveticaRegular.eot");
+  src: local("HelveticaRegular"), url("../fonts/HelveticaRegular.ttf");
+}
+
+@font-face {
+  font-family: HelveticaBold;
+  src: url("../fonts/HelveticaBold.eot");
+  src: local("HelveticaBold"), url("../fonts/HelveticaBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background: #E3F1F9;
+  position: relative;
+  font-family: HelveticaRegular, sans-serif;
+  width: 1676px;
+  height: 1355px;
+}
+
+header {
+  background: #111A29;
+  height: 244px;
+  width: auto;
+}
+
+.header {
+  width: 1315px;
+  height: 100%;
+  margin: auto;
+  font-size: 0;
+}
+
+.text-header {
+  position: relative;
+  float: left;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-header p {
+  color: white;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text-header p:nth-child(1) {
+  font-size: 48px;
+}
+
+.text-header p:nth-child(2) {
+  color: #BFD4DE;
+  font-size: 19px;
+}
+
+.text-header p:nth-child(3) {
+  font-size: 33.3px;
+}
+
+.header img {
+  float: right;
+  height: 244px;
+
+}
+
+.registration-step {
+  background: #BFD4DE;
+  height: 77px;
+  width: 100%;
+}
+
+.registration-step p {
+  padding: 25px;
+  margin-left: 216px;
+  color: #364654;
+  font-family: HelveticaBold, sans-serif;
+  font-size: 28px;
+}
+
+.main {
+  position: relative;
+  top: 0;
+  width: 1305px;
+  height: 886px;
+  background: #FFFFFF;
+  margin: auto;
+}
+
+.main p {
+  color: #364654;
+  font-size: 22px;
+  font-family: HelveticaItalic, sans-serif;
+  padding: 35px;
+  margin-left: 15px;
+}
+
+.left-block, .right-block {
+  margin-top: 10px;
+}
+
+.left-block {
+  float: left;
+  margin-left: 31px;
+}
+
+.right-block {
+  float: right;
+  margin-right: 120px;
+
+}
+
+.label, .label-sel, .label-text p {
+  position: relative;
+  text-align: right;
+  font-size: 20px;
+  color: #364654;
+  font-family: HelveticaBold, sans-serif;
+}
+
+.label input {
+  font-family: HelveticaRegular, sans-serif;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 1px 1px 3px #CCCCCC;
+  color: #364654;
+  height: 47px;
+  font-size: 25px;
+  padding-left: 10px;
+  margin: 18px;
+  margin-left: 30px;
+  margin-right: 0px;
+  width: 342px;
+}
+
+.label-text {
+  display: inline-block;
+  vertical-align: 40px;
+}
+
+.new-sel {
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  box-shadow: inset 1px 1px 3px #CCCCCC;
+  overflow: hidden;
+  height: 47px;
+  background: url(../images/select.png) no-repeat right #FFFFFF;
+  width: 350px;
+  margin: 20px;
+  margin-right: 0px;
+}
+
+ select {
+  width: 350px;
+  border-radius: 0;
+  background: transparent;
+  height: 47px;
+  padding: 5px;
+  border: 0;
+  font-size: 25px;
+  color: #364654;
+  line-height: 1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -ms-appearance: none;
+  appearance: none!important;
+}
+
+select::-ms-expand {
+ display: none;
+}
+
+.button {
+  position: absolute;
+  width: 150px;
+  height: 43px;
+  background: #364654;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  bottom: 46px;
+  left: 56px;
+
+}
+
+footer {
+  background: #364654;
+  color: #E5E5E5;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+}
+
+.footer {
+  position: relative;
+  width: 1284px;
+  height: 100%;
+  margin: auto;
+  font-size: 17px;
+}
+
+.footer p {
+  padding: 0;
+  padding-top: 28px;
+  padding-bottom: 23px;
+  position: relative;
+  float: left;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right {
+  position: relative;
+  float: right;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right a {
+  font-family: HelveticaBold, sans-serif;
+  color: #E5E5E5;
+  margin: 12px;
+  margin-right: 0px;
+  margin-left: 24px;
+  border-bottom: 1px #E5E5E5 inset;
+  text-decoration: none;
+}
